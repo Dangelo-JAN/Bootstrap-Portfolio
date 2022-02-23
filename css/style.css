@@ -10,18 +10,21 @@
 }
 .h1 {
   font-family: Playfair Display, sans-serif;
+  font-size: 7em;
   font-weight: 400;
-}
-.row div:first-child {
-  background-color: red;
+  margin-top: 25%;
 }
 
+
 .row .image {
-  background-color: orange;
   background-image: url("../images/heading-background.svg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.elips::before {
-  content: ".";
+img {
+  margin-left: 100%;
+  transform: translateX(-100%);  
+}
+.max-height {
+    min-height: 818px;
 }
