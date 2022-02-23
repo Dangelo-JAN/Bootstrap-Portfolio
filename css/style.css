@@ -9,13 +9,20 @@
   padding-bottom: 0px;
 }
 .h1 {
-  font-family: Playfair Display, sans-serif;
   font-size: 7em;
   font-weight: 400;
   margin-top: 25%;
 }
-
-
+.Playfair {
+  font-family: Playfair Display, sans-serif;
+}
+.second-background {
+  background-image: url("../images/second-background.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  padding: 0;
+}
 .row .image {
   background-image: url("../images/heading-background.svg");
   background-size: 100%;
@@ -23,8 +30,23 @@
 }
 img {
   margin-left: 100%;
-  transform: translateX(-100%);  
+  transform: translateX(-100%);
+}
+
+.projects {
+  height: 50%;
+  background-color: #1a2236de;
+  margin-top: 30%;
+}
+
+.img img {
+  max-width: 130px;
 }
 .max-height {
-    min-height: 818px;
+  min-height: 818px;
+}
+
+.rotate-text {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
 }
